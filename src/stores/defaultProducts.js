@@ -1,5 +1,6 @@
 import {writable} from 'svelte/store' ;
 import localProducts from '../localProducts.js' ;
+// import getProducts from '../strapi/getProducts.js';
 // const store =writable([]) ;
 const store = writable (flattenProducts([...localProducts])) ;
 

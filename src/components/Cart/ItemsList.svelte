@@ -5,7 +5,7 @@
     import { flip } from 'svelte/animate' ;
     import {afterUpdate} from 'svelte' ;
     afterUpdate(() => {
-        setStorageCart(cart) ;
+        setStorageCart($cart) ;
     }) ;
 </script>
 

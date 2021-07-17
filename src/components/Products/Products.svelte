@@ -1,9 +1,10 @@
 <script>
     
-    import products from '../../stores/defaultProducts' ;
+    import products from '../../stores/Products' ;
     import Product from './Product.svelte' ;
     import Loading from '../Loading.svelte' ;
     export let title =""
+    
 </script>
 
 <section class="section">

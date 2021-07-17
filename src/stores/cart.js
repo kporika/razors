@@ -7,7 +7,7 @@ export const cartTotal = derived (cart, ($cart) => {
     let total = $cart.reduce((acc,cur) => {
         return (acc+= (cur.amount*cur.price));
     }, 0 ) ;
-    return total.toFixed(2) ;
+    return parseFloat(total.toFixed(2)) ;
 }) ;
 
 const remove = (id, items ) => {

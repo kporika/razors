@@ -1,0 +1,1 @@
+export default 'https://svelte-store-api-server.herokuapp.com' ;
